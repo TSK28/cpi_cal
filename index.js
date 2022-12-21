@@ -32,12 +32,15 @@ let numerator;
 let denominator;
 
 document.getElementById("calculate").addEventListener("click", function(){
+    let numerator = Total_credit_grade;
+    let denominator = total_credit;
+    
     for(var i=0; i<Number_of_Subject; i++){
         Total_credit_grade += (document.getElementById("credit"+i).value) * (document.getElementById("grade"+i).value); 
         total_credit = (+total_credit)+ (+document.getElementById("credit"+i).value);
 
-        console.log(document.getElementById("credit"+i).value);
-        console.log(document.getElementById("grade"+i).value);
+//         console.log(document.getElementById("credit"+i).value);
+//         console.log(document.getElementById("grade"+i).value);
 
     }
 
@@ -47,7 +50,9 @@ document.getElementById("calculate").addEventListener("click", function(){
     // alert(ans);
     document.getElementById("print_ans").innerHTML = '';
     document.getElementById("print_ans").innerHTML += '<h1 class="ans_cpi">your cpi will be ' + ans+ '</h1>'
-
+    
+    Total_credit_grade = numerator;
+    total_credit = denominator;
 })
 
 
