@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    font-weight: bolder;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+
+/* for cpi div  */
+.box{
+    text-align: center;
+    margin: 1rem auto 1rem auto;
+}
+/* for input  */
+.input{
+    width: 100%;
+    height: 2rem;
+    
+}
+
+#table{
+    width: 100%;
+}
+/* for left content of the table */
+
+.left-content{
+    text-align: center;
+    width: 40rem;
+    margin-top: 1rem;
+}
+
+/* for right content of the table */
+
+.right-content{
+    height: 4rem;
+}
+
+/* for submit button  */
+
+.button{
+    text-align: center;
+}
+
+#cpi-cal{
+    width: 100%;
+}
+
+/* calculate button  */
+
+#calculate{
+    margin-top: 2rem;
+}
+#print_ans{
+    margin-left: 2rem;
+}
