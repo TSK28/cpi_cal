@@ -45,7 +45,7 @@ document.getElementById("calculate").addEventListener("click", function(){
     // console.log(total_credit);
     let ans = Total_credit_grade/total_credit; 
     // alert(ans);
-
+    document.getElementById("print_ans").innerHTML = '';
     document.getElementById("print_ans").innerHTML += '<h1 class="ans_cpi">your cpi will be ' + ans+ '</h1>'
 
 })
